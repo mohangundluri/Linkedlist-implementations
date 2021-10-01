@@ -90,11 +90,4 @@ class LinkedList:
                 n.nref.pref = new_node
 
 
-
 ll = LinkedList()
-
-ll.add_begin(10)
-ll.add_before(15, 10)
-ll.print_linked_list_reverse()
-print("\n")
-ll.print_linked_list()
